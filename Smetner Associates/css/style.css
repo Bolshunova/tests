@@ -162,14 +162,14 @@ textarea::placeholder, input::placeholder {
 }
 .info-site:before {
     position: absolute;
-    content: url(img/line.png);
+    content: url(./../img/line.png);
     display: block;
     margin: auto;
     bottom: 40px;
 }
 .info-site:after {
     position: absolute;
-    content: url(img/arrow.png);
+    content: url(./../img/arrow.png);
     display: block;
     margin: auto;
     top: 75px;
