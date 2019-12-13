@@ -1,0 +1,407 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+/* ---------------------------------Header------------------------------------- */
+.header {
+    padding-top: 24px;
+} 
+.header__main-back {
+    padding: 25px 15px;
+}
+.header__menu-box {
+    padding-bottom: 45px;
+}
+.nav__logo-link {
+    text-align: right;
+    position: relative;
+}
+.nav__logo-link:before {
+    content: url(./../img/main-icon.png);
+    position: absolute;
+    bottom: -60%;
+    right: 105px;
+}
+.nav__logo-item {
+    display: inline-block;
+    text-align: right;
+    font-weight: 700;
+    font-size: 23px;
+    color: #383334;
+}
+.nav__menu {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-size: 16px;
+    color: rgba(102, 102, 102, 255);
+}
+.nav__nav-item {
+    font-size: 10px;
+}
+.header__photo {
+    display: block;
+    margin: 0 auto 14px auto;
+}
+.header__title {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+.header__main-item {
+    width: 220px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    display: flex;
+    position: relative;
+    padding-left: 70px;
+}
+.icon-1::before {
+    content: '';
+    background-image: url(./../img/icon-1.png);
+    position: absolute;
+    left: 5px;  
+    background-size: 100%;
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+.icon-2::before {
+    content: '';
+    background-image: url(./../img/icon-2.png);
+    position: absolute;
+    left: 5px;  
+    background-size: 100%;
+    display: block;
+    width: 50px;
+    height: 50px; 
+}
+.icon-3::before {
+    content: '';
+    background-image: url(./../img/icon-3.png);
+    position: absolute;
+    left: 5px;  
+    background-size: 100%;
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+.header__orange-line {
+    text-decoration: underline #ff6b00;
+}
+.header__green-line {
+    text-decoration: underline #a7c93d;
+}
+.header__bold-word {
+    font-weight: 700;
+}
+/* ---------------------------------Main------------------------------------- */
+.pill {
+    padding-top: 90px;
+}
+.pill____pills-info {
+    margin-bottom: 60px;
+}
+.pill__title-one {
+    position: relative;
+    text-align: center;
+    color: #383334;
+    margin-bottom: 20px;
+}
+.pill__title-one::before {
+    content: url(./../img/main-icon.png);
+    position: absolute;
+    bottom: 150%;
+    right: 40%;
+}
+.pill__title-two {
+    font-size: 12px;
+    text-align: center;
+}
+.pill__info-elem {
+    color: #505050;
+}
+.pill__title-info {
+    line-height: 16px;
+    text-align: center;
+}
+.pill__statistics {
+    position: relative;
+    /* border: 1px solid #180b02; */
+    border: 1px solid #f4d3bb;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.pill__statistics::before{
+    content: url(./../img/graph.png);
+    width: 165px;
+    display: block;
+    background-color: #ffffff;
+    position: absolute;
+    bottom: 46px;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.bold-word {
+    font-weight: 700;
+}
+.arsenal__title-elem {
+    color: #444444;
+}
+.arsenal__title-info {
+    position: relative;
+    color: #383334;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.arsenal__title-info::before {
+    content: url(./../img/main-icon.png);
+    position: absolute;
+    bottom: 120%;
+    right: 40%;
+}
+.arsenal__list-item {
+    width: 220px;
+    position: relative;
+    font-size: 14px;
+}
+.arsenal__title-text {
+    text-align: center;
+    margin-bottom: 5px;
+}
+.arsenal__icon-7::before {
+    content: '';
+    background-image: url(./../img/icon-7.png);
+    position: absolute;
+    top: 15px;
+    left: 1px;
+    background-size: 100%;
+    display: block;
+    width: 65px;
+    height: 61px;
+    text-align: center;
+    display: block;
+}
+.arsenal__icon-8::before {
+    content: '';
+    background-image: url(./../img/icon-8.png);
+    position: absolute;
+    left: 5px;  
+    background-size: 100%;
+    display: block;
+    width: 43px;
+    height: 67px;
+}
+.arsenal__icon-9::before {
+    content: '';
+    background-image: url(./../img/icon-9.png);
+    position: absolute;
+    left: 5px;  
+    background-size: 100%;
+    display: block;
+    width: 50px;
+    height: 53px;
+}
+.arsenal__finally {
+    position: relative;
+    border: 1px solid #f4d3bb;
+    border-radius: 5px;
+    min-height: 70px;
+}
+fieldset legend {
+    padding: 0 16px;
+    font-weight: 700;
+}
+fieldset::before {
+    position: absolute;
+    content: '!';
+    font-size: 40px;
+    font-weight: 700;
+    color: #f4d3bb;
+    top: -10%;
+    right: 49%;
+}
+  .arsenal__statistics-info {
+    font-size: 12px;
+    width: 100%;
+    height: 100px;
+    padding-top: 15px;
+    color: #444444;
+    text-align: center;
+}
+.arsenal__bold-word {
+    font-weight: 700;
+    color: #000000;
+}
+.color-world {
+    color: #fa4f01;
+}
+.way-out__title-elem{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.way-out__title-info {
+    position: relative;
+    margin-bottom: 10px;
+}
+.way-out__title-info::before {
+    content: url(./../img/icon-orange.png);
+    position: absolute;
+    top: -120%;
+    right: 40%;
+}
+.way-out__title-two {
+    font-size: 12px;
+    width: 100%;
+    height: 30px;
+    padding-bottom: 10px;
+}
+.way-out__info-list {
+    min-height: 170px;
+}
+.way-out__list-item {
+    width: 220px;
+    min-height: 65px;
+    align-items: center;
+    position: relative;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.way-out__icon-10::before {
+    content: '';
+    background-image: url(./../img/icon-10.png);
+    position: absolute;
+    top: 50%;
+    left: 5px;  
+    background-size: 100%;
+    display: block;
+    width: 50px;
+    height: 35px;
+}
+.way-out__icon-11::before {
+    content: '';
+    background-image: url(./../img/icon-11.png);
+    position: absolute;
+    top: 50%;
+    left: 5px;  
+    background-size: 100%;
+    display: block;
+    width: 50px;
+    height: 35px;
+}
+.way-out__icon-12::before {
+    content: '';
+    background-image: url(./../img/icon-12.png);
+    position: absolute;
+    top: 50%;
+    left: 5px;  
+    background-size: 100%;
+    display: block;
+    width: 50px;
+    height: 35px;
+}
+.way-out__method {
+    position: relative;
+    border-radius: 5px;
+    width: 290px;
+    height: 50px;
+    border-left: 2px solid #f54d01;
+    border-right: 2px solid #62bd1f;
+    box-sizing: border-box;
+    background-position: 0 0, 0 100% ;
+    background-repeat: no-repeat;
+    background-size: 100% 2px;
+    background-image: linear-gradient(to right, #f54d01 0%, #62bd1f 100%), linear-gradient(to right, #f54d01 0%, #62bd1f 100%);
+}
+.way-out__info {
+    font-size: 12px;
+    text-align: center;
+    padding-top: 10px;
+}
+.way-out__elem-word {
+    color: #f64d01;
+}
+.way-out__bold-word {
+    font-weight: 700;
+}
+.using-info {
+   padding-top: 100px;
+}
+.using-info__title-info {
+    position: relative;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.using-info__title-info::before {
+    content: url(./../img/main-icon.png);
+    position: absolute;
+    bottom: 150%;
+    right: 46%;
+}
+.using-info__color-word {
+    color: #fa4f01;
+}
+.using-info__info-list {
+    min-height: 170px;
+}
+.using-info__pill-info {
+    width: 220px;
+    min-height: 50px;
+    align-items: center;
+    position: relative;
+    padding-left: 70px;
+    font-size: 14px;
+}
+.using-info__icon-13::before {
+    content: '';
+    background-image: url(./../img/icon-13.png);
+    position: absolute;
+    left: 5px;  
+    background-size: 100%;
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+.using-info__icon-14::before {
+    content: '';
+    background-image: url(./../img/icon-14.png);
+    position: absolute;
+    left: 5px;  
+    background-size: 100%;
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+.using-info__icon-15::before {
+    content: '';
+    background-image: url(./../img/icon-15.png);
+    position: absolute;
+    left: 5px;  
+    background-size: 100%;
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+.using-info__using-photo {
+    width: 220px;
+    height: 204px;
+    display: block;
+}
